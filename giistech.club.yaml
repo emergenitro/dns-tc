@@ -1,0 +1,97 @@
+---
+photos:
+  ttl: 60
+  type: A
+  value: 192.0.2.1
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
+vol:
+  ttl: 60
+  type: A
+  value: 192.0.2.1
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
+volunteerat:
+  ttl: 60
+  type: A
+  value: 192.0.2.1
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
+volunteer:
+  ttl: 60
+  type: A
+  value: 192.0.2.1
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
+satire:
+  ttl: 60
+  type: CNAME
+  value: giis-tech-club.github.io.
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
+upload:
+  ttl: 60
+  type: CNAME
+  value: cname.vercel-dns.com.
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
+www:
+  ttl: 60
+  type: CNAME
+  value: cname.vercel-dns.com.
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
+"":
+  - ttl: 300
+    type: A
+    value: 76.76.21.21
+    octodns:
+      cloudflare:
+        proxied: true
+        auto_ttl: true
+  - ttl: 3600
+    type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
+    octodns:
+      cloudflare:
+        auto_ttl: true
+  - ttl: 300
+    type: TXT
+    values:
+      - "google-site-verification=XOWAgSMzz0NVInNHgDb2llh9eUM7P9cn9l2QM8tDhts"
+      - "v=spf1 include:_spf.google.com ~all"
+    octodns:
+      cloudflare:
+        proxied: true
+        auto_ttl: true

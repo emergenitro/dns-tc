@@ -1,0 +1,16 @@
+providers:
+  config:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./
+    enforce_order: False
+  cloudflare:
+    class: octodns_cloudflare.CloudflareProvider
+    token: env/CLOUDFLARE_TOKEN
+    account_id: env/CLOUDFLARE_ACCOUNT_ID
+
+zones:
+  giistech.club.:
+    sources:
+      - config
+    targets:
+      - cloudflare
