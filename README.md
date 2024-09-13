@@ -1,4 +1,4 @@
-# Welcome to the giistech.club DNS Hub! 🚀
+# Welcome to the GIIS Tech Club DNS Hub! 🚀
 
 Ready to dive into the world of DNS and help shape the infrastructure of giistech.club? Whether you're a tech enthusiast or a curious explorer, this is your chance to make a tangible impact with just a few clicks. By tweaking a YAML file and opening a pull request, you'll set the wheels in motion, automatically updating our DNS records with Cloudflare. Let's get started!
 
