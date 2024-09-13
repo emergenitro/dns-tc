@@ -28,3 +28,6 @@ jobs:
       with:
         config_path: ./config/production.yaml
         doit: '--doit' 
+      env:
+        CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
+        CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
