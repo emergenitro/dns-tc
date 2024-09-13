@@ -95,3 +95,13 @@ www:
       cloudflare:
         proxied: true
         auto_ttl: true
+
+karthik:
+  ttl: 300
+  type: URLFWD
+  values:
+    - code: 301
+      masking: 2
+      path: "/"
+      query: 0
+      target: "https://karthik.syntaxerrorfound.me"
