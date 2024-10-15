@@ -62,6 +62,15 @@ www:
       proxied: true
       auto_ttl: true
 
+yourwebsite:
+  ttl: 60
+  type: CNAME
+  value: yourwebsite.github.io
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
+
 "":
   - ttl: 300
     type: A
