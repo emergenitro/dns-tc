@@ -112,3 +112,12 @@ helios:
     cloudflare:
       proxied: true
       auto_ttl: true
+_vercel:
+  ttl: 300
+  type: TXT
+  values:
+    - "vc-domain-verify=helios.giistech.club,b2cf7b4395870c70dcfb"
+  octodns:
+    cloudflare:
+      proxied: false
+      auto_ttl: true
