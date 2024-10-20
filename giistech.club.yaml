@@ -104,3 +104,11 @@ yourwebsite:
       cloudflare:
         proxied: true
         auto_ttl: true
+helios:
+  ttl: 300
+  type: CNAME
+  value: cname.vercel-dns.com.
+  octodns:
+    cloudflare:
+      proxied: true
+      auto_ttl: true
